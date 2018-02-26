@@ -3,12 +3,11 @@ To compile and execute run type "./Makefile" to terminal or type "make compile".
 To execute, type "./myInterpreter" to terminal.
 
 
-
 The EBNF form of The language
 
 !! PROGRAM, DEGISKENLER, KOMUTLAR, OKU, YAZ, TOPLA, CIKAR, CARP, BOL are keywords.
 
-<Program> → PROGRAM id; <Declaration Section> <Main Section> 
+Program → PROGRAM id; <Declaration Section> <Main Section> 
 
 <Declaration Section> → DEGISKENLER [<Variable List>];
 <Variable List> → <Variable Def> | <Variable Def>, <Variable List>
